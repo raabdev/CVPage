@@ -23,7 +23,44 @@
   }
   
   /*==============navbar================*/
+
   nav{
+    margin: auto;
+    background-color: var(--black-color);
+  }
+
+  ul, ol{
+    list-style: none;
+  }
+
+  .nav li a{
+    background-color: var(--black-color);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+
+
+  .nav li a:hover{
+    color: var(--green-color);
+  }
+
+  .nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+  }
+
+  .nav li ul li{
+    
+  }
+
+  .nav li:hover > ul{
+    display: block;
+  }
+
+  /*nav{
     background-color: black;
     display: flex;
     color: var(--white-color);
@@ -55,5 +92,5 @@
   
   nav li a:hover{
     color: var(--green-color);
-  }
+  }*/
   /*==============fin del navbar================*/
