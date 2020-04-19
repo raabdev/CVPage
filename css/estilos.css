@@ -109,3 +109,34 @@
     color: var(--green-color);
   }*/
   /*==============fin del navbar================*/
+
+  .principal{
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--box);
+    padding-top: 20px;
+  }
+  
+  .articulos{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-around;
+  }
+  
+  .articulo_cont{
+    box-shadow: var(--box);
+    text-align: left;
+    background-size: cover;
+    background-position: center top;
+    width: 20%;
+    margin: 2%;
+  }
+  
+  .texto{
+    padding-left: 3%;
+  }
+  
+  .img_articulo{
+  
+  }
