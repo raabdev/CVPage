@@ -26,7 +26,21 @@
 
   nav{
     margin: auto;
-    background-color: var(--black-color);
+    background-color: black;
+  }
+
+  .img-nav{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: var(--normal);
+    font-family: 'Open sans', sans-serif;
+  }
+
+  h1{
+    font-size: var(--normal);
+    font-family: 'Open sans', sans-serif;
+    font-weight: normal;
   }
 
   ul, ol{
@@ -36,7 +50,7 @@
   }
 
   .nav li a{
-    background-color: var(--black-color);
+    background-color: black;
     color: white;
     text-decoration: none;
     padding: 10px 15px;
@@ -65,7 +79,7 @@
  
 
   nav{
-    background-color: var(--black-color);
+    background-color: black;
     display: flex;
     color: var(--white-color);
     justify-content: space-between;
@@ -74,10 +88,6 @@
     max-height: 60px;
   }
   
-  .img-nav{
-    width: 6vw;
-    height: auto;
-  }
   /*
   nav ul{
     display: flex;
