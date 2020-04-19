@@ -69,7 +69,8 @@
   }
 
   .nav li ul li{
-    
+    position: relative;
+    right: 25px;
   }
 
   .nav li:hover > ul{
