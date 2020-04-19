@@ -41,6 +41,7 @@
     font-size: var(--normal);
     font-family: 'Open sans', sans-serif;
     font-weight: normal;
+    text-align: center;
   }
 
   ul, ol{
@@ -126,7 +127,7 @@
   
   .articulo_cont{
     box-shadow: var(--box);
-    text-align: left;
+    text-align: center;
     background-size: cover;
     background-position: center top;
     width: 20%;
@@ -140,3 +141,29 @@
   .img_articulo{
   
   }
+
+  /*==============footer================*/
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 30px;
+}
+
+footer a{
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+
+footer a:hover{
+  color: var(--green-color);
+}
+
+footer p{
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+/*==============fin del footer================*/
